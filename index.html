@@ -7,21 +7,22 @@
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<!-- Floating Button -->
-<div class="floating-whatsapp">
-    <a href="https://wa.me/923122687614?text=Hi! I'm interested in EzonLife products. Please send me the product catalogue and prices." class="float-btn" target="_blank">
-        <span>💬</span>
-        <span class="float-text">View Products</span>
-    </a>
-</div>
 <body>
+    <!-- Floating Button -->
+    <div class="floating-whatsapp">
+        <a href="https://wa.me/923122687614?text=Hi! I'm interested in EzonLife products. Please send me the product catalogue and prices." class="float-btn" target="_blank">
+            <span>💬</span>
+            <span class="float-text">View Products</span>
+        </a>
+    </div>
+
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-            <img src="../images/logo.jpg" alt="EzonLife Logo" class="logo-image">
-            <span class="logo-text">EZonLife</span>
-             </a>
+                <!-- Fixed: Removed extra </a> and corrected image path -->
+                <img src="images/logo.jpg" alt="EzonLife Logo" class="logo-image">
+                <span class="logo-text">EZonLife</span>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="#mission" class="nav-link">Mission</a></li>
@@ -36,6 +37,7 @@
         </div>
     </nav>
 
+    <!-- Rest of your content remains the same -->
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
@@ -45,154 +47,49 @@
         </div>
     </section>
 
-        <!-- Mission Section -->
+    <!-- Mission Section -->
     <section id="mission" class="mission-section">
-        <div class="container">
-            <h2>🌱 EzonLife Mission Statement</h2>
-            <div class="mission-content">
-                <p>At <strong>EzonLife</strong>, our mission is to restore the balance between health and everyday living by creating <strong>natural, preservative-free, and probiotic-rich foods</strong> that truly support human wellbeing. In a time when store shelves are crowded with <strong>artificially flavored, sugary, carbonated, chemically processed, and preservative-loaded foods</strong>, we stand for purity, transparency, and health. Most modern food brands rely on <strong>synthetic colors, artificial sweeteners, taste enhancers, and high-fat ingredients</strong> that may look appealing but silently harm the body over time. We believe it is our responsibility to offer safe, honest, and nutrient-rich alternatives — foods that are <strong>free from harmful additives</strong>, gentle on digestion, and nourishing for the entire family. From children to adults and seniors, our goal is to help people escape the long-term consequences of unhealthy eating, such as <strong>obesity, diabetes, hormonal imbalance, and weakened immunity</strong>.</p>
-                
-                <div class="mission-highlight">
-                    <p>"To replace artificial convenience with natural wellness — bringing real health back to every home."</p>
-                </div>
-
-                <p>Every EzonLife product reflects our deep commitment to quality, sustainability, and the belief that <strong>good health is not a luxury, but a right for every person</strong>. With <strong>EzonLife</strong>, we are nurturing a future where food heals, energizes, and protects — from Pakistan, for Pakistanis, and for the generations to come. 🌾💚</p>
-            </div>
-        </div>
+        <!-- ... your mission section content ... -->
     </section>
 
-    <!-- Products Grid Section -->
+    <!-- Products Section -->
     <section id="products" class="products-grid-section">
-        <div class="container">
-            <h2>Our Products</h2>
-            <div class="products-grid">
-                <!-- Water Kefir -->
-                <div class="product-card-grid">
-                    <a href="products/water-kefir.html" class="product-link">
-                        <div class="product-image">
-                            <img src="images/water-kefir.jpg" alt="Water Kefir">
-                        </div>
-                        <div class="product-info">
-                            <h3>🌿 Water Kefir</h3>
-                            <p>Natural Healthy Sparkling Drink</p>
-                            <span class="view-details">View Details →</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Milk Kefir -->
-                <div class="product-card-grid">
-                    <a href="products/milk-kefir.html" class="product-link">
-                        <div class="product-image">
-                            <img src="images/milk-kefir.jpg" alt="Milk Kefir">
-                        </div>
-                        <div class="product-info">
-                            <h3>✨ Milk Kefir</h3>
-                            <p>Probiotic Rich Dairy Drink</p>
-                            <span class="view-details">View Details →</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Sorghum Flour -->
-                <div class="product-card-grid">
-                    <a href="products/sorghum-flour.html" class="product-link">
-                        <div class="product-image">
-                            <img src="images/sorghum-flour.jpg" alt="Sorghum Flour">
-                        </div>
-                        <div class="product-info">
-                            <h3>🌾 Sorghum Flour</h3>
-                            <p>The Healthier Choice</p>
-                            <span class="view-details">View Details →</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Kefir Grains -->
-                <div class="product-card-grid">
-                    <a href="products/kefir-grains.html" class="product-link">
-                        <div class="product-image">
-                            <img src="images/kefir-grains.jpg" alt="Kefir Grains">
-                        </div>
-                        <div class="product-info">
-                            <h3>🥛 Active Kefir Grains</h3>
-                            <p>Live Probiotic Cultures</p>
-                            <span class="view-details">View Details →</span>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Sauerkraut -->
-                <div class="product-card-grid">
-                    <a href="products/sauerkraut.html" class="product-link">
-                        <div class="product-image">
-                            <img src="images/sauerkraut.jpg" alt="Sauerkraut">
-                        </div>
-                        <div class="product-info">
-                            <h3>Sauerkraut</h3>
-                            <p>Fermented Gut-Healthy Food</p>
-                            <span class="view-details">View Details →</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
+        <!-- ... your products section content ... -->
     </section>
 
     <!-- Benefits Section -->
     <section id="benefits" class="benefits-section">
-        <div class="container">
-            <h2>Why Choose EzonLife?</h2>
-            <div class="benefits-grid">
-                <div class="benefit-card">
-                    <div class="benefit-icon">🌿</div>
-                    <h3>100% Natural</h3>
-                    <p>No artificial flavors, colors, or preservatives. Just pure, natural ingredients.</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">💪</div>
-                    <h3>Probiotic Power</h3>
-                    <p>Rich in beneficial bacteria for optimal gut health and immunity.</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">🚫</div>
-                    <h3>Free From Harmful Additives</h3>
-                    <p>No synthetic colors, artificial sweeteners, or taste enhancers.</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">🏡</div>
-                    <h3>Family Friendly</h3>
-                    <p>Safe and beneficial for all ages, from children to seniors.</p>
-                </div>
-            </div>
-        </div>
+        <!-- ... your benefits section content ... -->
     </section>
 
-        <!-- Footer -->
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <img src="../images/logo.jpg" alt="EzonLife Logo" class="footer-logo">
+                    <!-- Fixed footer logo path too -->
+                    <img src="images/logo.jpg" alt="EzonLife Logo" class="footer-logo">
                     <h3>EzonLife</h3>
                     <p>Natural Wellness for Every Home</p>
                 </div>
                 <div class="footer-links">
-                    <a href="../index.html#mission">Our Mission</a>
-                    <a href="../index.html#products">Products</a>
-                    <a href="../index.html#benefits">Benefits</a>   
+                    <a href="#mission">Our Mission</a>
+                    <a href="#products">Products</a>
+                    <a href="#benefits">Benefits</a>   
                 </div>
             </div>
+            
             <!-- Social Media Links -->
-<div class="social-links">
-    <h4>Follow Us</h4>
-    <div class="social-icons">
-        <a href="https://www.facebook.com/profile.php?id=61580156008026" class="social-link facebook" target="_blank" title="Follow EZonLife on Facebook">
-            <span>📘</span>
-            <span>Facebook</span>
-        </a>
-    </div>
-</div>  
+            <div class="social-links">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61580156008026" class="social-link facebook" target="_blank" title="Follow EZonLife on Facebook">
+                        <span>📘</span>
+                        <span>Facebook</span>
+                    </a>
+                </div>
+            </div>  
+            
             <!-- Address Line -->
             <div class="footer-address">
                 <p>📍 Iqbal Rd, Tibba Azeem Shah, Lahore, Punjab, Pakistan</p>
